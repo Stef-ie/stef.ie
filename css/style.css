@@ -2,78 +2,213 @@
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
-
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
 
 /* =============================================================================
    My CSS
    ========================================================================== */
 
 @font-face {
-    font-family: 'xxii_ultimate-blacfallenangel';
-    src: url('xxii_ultimate-black-metal-webfont.woff2') format('woff2'),
-         url('xxii_ultimate-black-metal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "xxii_ultimate-blacfallenangel";
+  src: url("xxii_ultimate-black-metal-webfont.woff2") format("woff2"),
+    url("xxii_ultimate-black-metal-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 /*
 	pannel
 */
 
 .panel {
-    font-size: 1.3em;
-    position: absolute;
-    z-index: 10;
-    width: 200px;
-    height: 220px;
-    background: #eee;
-    top: 50%;
-    left: 50%;
-    margin: -110px 0 0 -100px;
-    padding: 20px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    z-index: 100;
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  height: 220px;
+  background: #eee;
+  top: 50%;
+  left: 50%;
+  margin: -110px 0 0 -100px;
+  padding: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 100;
 }
 
 .panel h1 {
-	font-family: "xxii_ultimate-blacfallenangel", Fallback, sans-serif; 
-    font-size: 3.6em;
-    font-weight: 700;
-    text-align: center;
-    color: #222;
-    margin-top: -4px;
+  font-family: "xxii_ultimate-blacfallenangel", Fallback, sans-serif;
+  font-size: 3.6em;
+  font-weight: 700;
+  text-align: center;
+  color: #222;
+  margin-top: -4px;
 }
 .panel h2 {
-    font-weight: 400;
-    font-size: .8em;
-    margin-bottom: 16px;
-    text-align: center;
-    line-height: 1.3em;
+  font-weight: 400;
+  font-size: 0.8em;
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 1.3em;
 }
 .panel .r-version {
-    display: block;
-    margin-bottom: 7px;
-    text-align: center;
-    font-size: .75em;
+  display: block;
+  margin-bottom: 7px;
+  text-align: center;
+  font-size: 0.75em;
 }
 
 /* ---- base ---- */
 
-html, body { height: 100% }
+html,
+body {
+  height: 100%;
+}
 
 body {
   display: flex;
@@ -98,32 +233,33 @@ body {
   z-index: -1;
 }
 
-html,body{ 
-	width:100%;
-	height:100%;
-	background:#111;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #111;
 }
 
-html{
+html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-body{
-  font:normal 75% Arial, Helvetica, sans-serif;
+body {
+  font: normal 75% Arial, Helvetica, sans-serif;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
 
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   background-color: #423f3f;
-  background-image: url('');
+  background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;

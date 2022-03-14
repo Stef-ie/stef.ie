@@ -20,7 +20,7 @@
         "nb_sides": 5
       },
       "image": {
-          "src": "image/ghost_PNG55.png",
+        "src": "image/ghost_PNG55.png",
         "width": 100,
         "height": 100
       }
